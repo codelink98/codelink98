@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Martin Torres</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+    <header class="header"> 
+        <div class="container">
+            <figure class="logo">
+                <img height="50px" src="images/logo.png" alt="Logotipo de Sitio Web">
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a class="link" href="#portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a class="link"  href="#experiencia">Experiencia</a>
+                    </li>
+                    <li>
+                        <a class="link"  href="#contacto">Trabajemos juntos</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1>
+                Hola soy <strong>Martín Torres</strong> <br> Desarrollador <strong>Javascript</strong> con <br> 
+                Pasión por la <strong>Enseñanza</strong>
+            </h1>
+            <img class="hero-image" src="images/hero.jpg" width="500" height="300" alt="imagen de portada">
+        </div>
+    </section>
+    <section id="portafolio" class="portfolio">
+        <div class="container">
+            <h2>Portafolio (Proyectos Destacados)</h2>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Platzi Video</h3>
+                    <h6 class="project-course">React Native / React</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en:</strong> Algun lado</small></p>
+                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis beatae iste delectus inventore dolores. Similique hic nihil, tempore ad necessitatibus laudantium laborum magnam nostrum iste, consectetur debitis sapiente quae voluptatibus.</p>
+                </div>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="images/platzi-video-react-native.png" alt="React Native Platzi video" width="500">
+                </figure>
+            </article>
+        </div>
+    </section>
+    <div class="container">
+        <h2 class="event-list-title">Mas sobre mi experiencia</h2>
+    </div>
+    <section id="experiencia" class="event-list">
+        <div class="container">
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/platzi-conf.jpg" alt="Conferencia de platzi-conf" width="500">
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">Platzi conf méxico 2018</h3>
+                    <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem tempore rem, eum nihil natus soluta minus doloribus cum recusandae minima, quaerat dignissimos sequi asperiores facilis repellat dolore aspernatur. Perferendis, incidunt!</p>
+                    <a class="event-url" href="https://www.youtube.com/watch?v=ExsGyZDBlJQ" target="_blank">Ver Plática</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/platzi-conf.jpg" alt="Conferencia de platzi-conf" width="500">
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">Platzi conf méxico 2018</h3>
+                    <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem tempore rem, eum nihil natus soluta minus doloribus cum recusandae minima, quaerat dignissimos sequi asperiores facilis repellat dolore aspernatur. Perferendis, incidunt!</p>
+                    <a class="event-url" href="https://www.youtube.com/watch?v=ExsGyZDBlJQ" target="_blank">Ver Plática</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/platzi-conf.jpg" alt="Conferencia de platzi-conf" width="500">
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">Platzi conf méxico 2018</h3>
+                    <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem tempore rem, eum nihil natus soluta minus doloribus cum recusandae minima, quaerat dignissimos sequi asperiores facilis repellat dolore aspernatur. Perferendis, incidunt!</p>
+                    <a class="event-url" href="https://www.youtube.com/watch?v=ExsGyZDBlJQ" target="_blank">Ver Plática</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/platzi-conf.jpg" alt="Conferencia de platzi-conf" width="500">
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">Platzi conf méxico 2018</h3>
+                    <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem tempore rem, eum nihil natus soluta minus doloribus cum recusandae minima, quaerat dignissimos sequi asperiores facilis repellat dolore aspernatur. Perferendis, incidunt!</p>
+                    <a class="event-url" href="https://www.youtube.com/watch?v=ExsGyZDBlJQ" target="_blank">Ver Plática</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section id="contacto" class="contact">
+        <div class="container">
+            <form action="/suscripcion/" class="form-email">
+                <h3>¿Creamos algo juntos?</h3>
+                <input type="text" placeholder="Déjanos tu email" id="email">
+                <button>Envíar</button>
+            </form>
+            <div class="social">
+                <a class="social-link twitter" href=""></a>
+                <a class="social-link facebook" href=""></a>
+                <a class="social-link github" href=""></a>
+                <a class="social-link instagram" href=""></a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <p>Curso de desarrollo web online 2021 <img width="80px" src="images/platzi.png" alt=""></p>
+            </div>
+            <div>
+                <p>Designed with <\3 by <a href="https://twitter/thespianartist">@thespianartist</a> </p> 
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
